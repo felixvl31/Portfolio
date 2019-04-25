@@ -94,6 +94,7 @@
 .menu-link:hover {
   color: #feda6a;
 }
+/* Sticky */
 .sticky {
   position: fixed;
   top: 0;
