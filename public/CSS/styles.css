@@ -94,7 +94,11 @@
 .menu-link:hover {
   color: #feda6a;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 body {
   background:  #393f4d;
   color: #d4d4dc;
