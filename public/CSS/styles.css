@@ -193,8 +193,9 @@ Portfolio
   margin-bottom:0;
 }
 .PortfolioImage{
-  margin: 10px auto;
-  border-radius: 10%;
+  margin: 10px auto 2px;
+  border-radius: 5%;
+  width:95%;
 } 
 
 .Github,.Try{
@@ -205,11 +206,11 @@ Portfolio
   font-family: 'Montserrat', sans-serif;
 }
 .btn{
-  margin: 0 auto !important;
+  margin: 0px auto 5px !important;
   padding:0;
   font-weight: 600;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 14px;
 }
 .Github{
   background-color:#1d1e22;
@@ -339,7 +340,19 @@ label{
   Responsive
   ========================================
 */
-@media only screen and (max-width: 1420px)
+@media only screen and (max-width: 2000px)
+{
+  .btn{
+     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1530px)
+{
+  .btn{
+     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1380px)
 {
   .btn{
      font-size: 14px;
@@ -355,7 +368,7 @@ label{
 @media only screen and (max-width: 1200px)
 {
   .btn{
-     font-size: 10px;
+     font-size: 14px;
   }
 }
 @media only screen and (max-width: 980px)
@@ -414,9 +427,9 @@ label{
   .PortfolioImage{
   width:60%;
   } 
-  .btn{
+  /* .btn{
      font-size: 16px;
-  }
+  } */
   .Github{
     width:30%;
   }
