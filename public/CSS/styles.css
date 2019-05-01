@@ -425,16 +425,13 @@ label{
      font-size:80%;
   }
   .PortfolioImage{
-  width:60%;
+    width:90%;
   } 
-  /* .btn{
-     font-size: 16px;
-  } */
   .Github{
     width:30%;
   }
   .Try{
-    width:50%;
+    width:60%;
   }
   .contact-mine{
     display:block;
