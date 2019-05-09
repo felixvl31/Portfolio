@@ -59,7 +59,5 @@ $(".input-default").on("click",function(event){
     $(".email").val("Not an e-mail").addClass("WrongEmail");
   }
 
-
-
 });
 
